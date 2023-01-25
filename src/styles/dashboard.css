@@ -1,0 +1,57 @@
+.dashboard-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 180vh;
+    background-color: var(--bg-light-purple);
+  }
+  
+  .title-container {
+    display: flex;
+    margin: 3.5em 2em 1em -2em;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .purple-btn {
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    border: none;
+    border-radius: 1.2em;
+    padding: 1em 4em;
+    font-family: 'Space Grotesk', sans serif;
+  } 
+  
+  .insights-container {
+    background-color: white !important;
+    padding: 1em;
+    margin: 1em 2em;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border-radius: 0.7em;
+  }
+  
+  .text-container {
+    background-color: var(--bg-grey);
+    padding: 1em 2em;
+    font-size: 0.9rem;
+    padding-bottom: 4em;
+    border-radius: 0.8em;
+  }
+  
+  .internship-container {
+    height: 180vh;
+  }
+
+  
+  
+  
+  
+  .efVKOz{
+    border-radius: 12px !important;
+  }
+
+  h2 {
+    font-family: 'Space Grotesk', sans serif;
+    margin-left: 3em;
+    
+  }
